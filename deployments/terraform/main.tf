@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "example" {
   name     = "demo-resources"
-  location = "eastus"
+  location = "West Europe"
 }
 
 resource "azurerm_kubernetes_cluster" "example" {
