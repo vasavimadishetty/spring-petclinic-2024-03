@@ -23,7 +23,7 @@ resource "azurerm_kubernetes_cluster" "example" {
     Environment = "Development"
   }
   provisioner "local-exec" {
-    command = "az aks get-credentials --resource-group demo-resources --name myAKSCluster"
+    command = "az aks get-credentials --resource-group demo-resources --name myAKSCluster --overwrite-existing"
       
   }
 }
