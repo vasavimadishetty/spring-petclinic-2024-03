@@ -17,9 +17,6 @@ spec:
       - name: spc
         image: shaikkhajaibrahim/sample_march2024:latest
         resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
         ports:
         - containerPort: 8080
 ---
