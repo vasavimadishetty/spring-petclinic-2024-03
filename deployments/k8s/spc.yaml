@@ -4,6 +4,7 @@ kind: Deployment
 metadata:
   name: spc
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: spc
