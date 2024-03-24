@@ -13,7 +13,7 @@ steps:
       command: buildAndPush
       Dockerfile: 'Dockerfile'
       containerRegistry: 'MyDockerHub'
-      repository: 'shaikkhajaibrahim/sample_march2024'
+      repository: 'vasavimadishetty/sample_vasavi_2024'
       tags: "latest"
   - task: Bash@3
     displayName: "Execute terraform"
